@@ -68,7 +68,7 @@
 .card_list {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 46px;
   font-family: var(--font-main);
   font-size: 18px;
 }
@@ -113,7 +113,7 @@
 }
 
 @supports (
-  (text-stroke: 1px rgba(255, 255, 255, 0.5) ;) or
+  (text-stroke: 1px rgba(255, 255, 255, 0.5)) or
     (-webkit-text-stroke: 1px rgba(255, 255, 255, 0.5))
 ) {
 
