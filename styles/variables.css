@@ -1,22 +1,27 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
 :root {
-  --font-main: "Inter-Variable", sans-serif;
-  --font-accent: "PressStart2P", monospace;
+  --font-main: 'Inter-Variable', sans-serif;
+  --font-accent: 'PressStart2P', monospace;
   --font-main-wght-normal: 410;
   --font-main-wght-bold: 715;
   --page-gradient:
-  repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
-  repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
-  linear-gradient(to bottom, #e7e7e7, #1a1a1a);
+    repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7, #1a1a1a);
   --container-width: clamp(375px, -377.2px + 109.3vw, 1440px);
-  --logo-font-size: clamp(49px, 43.375px + 1.50vw, 65px);
+  --logo-font-size: clamp(49px, 43.375px + 1.5vw, 65px);
   --title-font-size: clamp(14px, 10.83px + 0.845vw, 23px);
   --page-padding: clamp(0px, -130.28px + 34.74vw, 370px);
   --logo-padding-top-bottom: clamp(122px, 119.19px + 0.75vw, 130px);
   --logo-padding-left-right: clamp(16px, -21.5px + 10vw, 122.5px);
-  --img-height: clamp(371px, calc(371px + (696 - 371) * ((100cqw - 375px) / (1440 - 375))), 696px);
+  --img-height: clamp(
+    371px,
+    calc(371px + (696 - 371) * ((100cqw - 375px) / (1440 - 375))),
+    696px
+  );
   --accent-color: #000;
-  --btn-text-color: #ffffff;
+  --btn-text-color: #fff;
   --animation-contour-color: #000;
-  --animation-fill-color: #FF0000;
-  } 
+  --animation-fill-color: #f00;
+}
