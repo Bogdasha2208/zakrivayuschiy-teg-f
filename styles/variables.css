@@ -2,8 +2,8 @@
 
 :root {
   --font-main: 'Inter-Variable', sans-serif;
-  --font-accent: 'PressStart2P', monospace;
-  --font-main-wght-normal: 410;
+  --font-accent: 'PressStart2P', fantasy;
+  --font-wght-normal: 410;
   --font-main-wght-bold: 715;
   --page-gradient:
     repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
