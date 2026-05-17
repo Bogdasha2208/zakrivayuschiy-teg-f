@@ -110,7 +110,7 @@
   opacity: 0.5;
   font-family: var(--font-accent);
   font-size: 14px;
-  text-shadow: 1px 1px 0 rgb(0 0 0 / 0.5);
+  text-shadow: 1px 1px 0 rgb(255 255 255 );
   background-color: transparent;
   mix-blend-mode: hard-light;
 }
@@ -305,6 +305,7 @@ dialog::backdrop {
 }
 
 @media (width <= 375px) {
+
   .button-save {
     flex-direction: column-reverse;
     padding-top: 22px;
